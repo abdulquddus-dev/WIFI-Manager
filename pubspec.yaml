@@ -1,0 +1,53 @@
+name: wifi_manager
+description: تطبيق إدارة مالية لشبكة الواي فاي
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # التخزين المحلي
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Firebase
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+
+  # الرسوم البيانية
+  fl_chart: ^0.69.0
+
+  # إدارة الحالة
+  provider: ^6.1.2
+
+  # التواريخ والأرقام
+  intl: ^0.19.0
+
+  # معرفات فريدة
+  uuid: ^4.5.1
+
+  # فتح روابط خارجية (تحديثات)
+  url_launcher: ^6.3.1
+
+  # تسجيل الدخول بجوجل
+  google_sign_in: ^6.2.2
+
+  # أيقونات إضافية
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.12
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

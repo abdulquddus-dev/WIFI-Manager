@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077858574711",
+    "project_id": "wifi-manager-2af36",
+    "storage_bucket": "wifi-manager-2af36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077858574711:android:5133354482deb1e9ed0172",
+        "android_client_info": {
+          "package_name": "com.example.wifi_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAXJxXcXqadTa0pqbDm4QhiuyA0mK1-CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
